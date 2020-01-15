@@ -1,0 +1,15 @@
+#
+#  main.py
+#  Re_Start
+#
+#  Created by super on 14/1/2020.
+#  Copyright © 2020 IDE. All rights reserved.
+#
+
+arr=[1, 2, 3, 4, 5, 6, 7, 8, 9]
+op=[[], [], []]
+
+for elem in arr:
+    op[(elem%3)-1].append(elem)
+
+print(op)
