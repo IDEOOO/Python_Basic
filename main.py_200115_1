@@ -1,10 +1,10 @@
-//
-//  main.py
-//  Re_Start
-//
-//  Created by super on 14/1/2020.
-//  Copyright © 2020 IDE. All rights reserved.
-//
+#
+#  main.py
+#  Re_Start
+#
+#  Created by super on 14/1/2020.
+#  Copyright © 2020 IDE. All rights reserved.
+#
 
 a=int(input("first insert: "))
 b=int(input("second insert: "))
