@@ -1,0 +1,18 @@
+#
+#  main.py
+#  Re_Start
+#
+#  Created by super on 14/1/2020.
+#  Copyright © 2020 IDE. All rights reserved.
+#
+
+k=["name", "hp", "mp", "level"]
+v=["knight", 2000, 500, 50]
+c={}
+i=0
+
+for o in k:
+    c[o]=v[i]
+    i+=1
+
+print(c)
