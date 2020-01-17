@@ -1,0 +1,14 @@
+#
+#  main.py
+#  Re_Start
+#
+#  Created by super on 14/1/2020.
+#  Copyright © 2020 IDE. All rights reserved.
+#
+
+import time
+num=0
+tick=time.time()+5
+while time.time()<tick:
+    num+=1
+print("5초동안 {}번 반복함.". format(num))
