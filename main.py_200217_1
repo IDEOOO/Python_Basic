@@ -1,0 +1,15 @@
+#
+#  main.py
+#  Re_Start
+#
+#  Created by super on 14/1/2020.
+#  Copyright © 2020 IDE. All rights reserved.
+#
+
+def mul(*values):
+    output=1
+    for value in values:
+        output*=value
+    return output
+
+print(mul(5, 7, 9, 10))
